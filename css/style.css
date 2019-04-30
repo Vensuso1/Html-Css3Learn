@@ -38,12 +38,11 @@ ul.header_meniu li a {
 .centered_content,
 .gyvenimas_slenyje_inline,
 .gyvenimas_slenyje_background {
-	display: -webkit-box;
-}
+	display: -webkit-box;}
 h1.first {
 	text-transform: uppercase;
 	font-size: 30px;
-	margin:75px 0 80px 0;
+	margin:75px 0 80px 0;}
 p.rotate_text {
 	text-transform: uppercase;}
 .centered_content {
@@ -103,7 +102,6 @@ img.img_ezeras {
 }
 
 /*Gyvenimas Slenyje sekcija_end*/
-
 /*Vieta Mieste _start*/
 .container h2 {
 	margin-top: 80px;
@@ -112,42 +110,34 @@ img.img_ezeras {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size:30px;
-	color:#c8c1b7; 
-}
+	color:#c8c1b7; }
 span#heading_mieste_bold {
 	font-weight: 700;}
-
 .vieta_mieste_background {
 	z-index: -100;
 	display: flex;
 	position: relative;
 	padding-bottom: 100px;
 	background-color: #ece2d1;}
-
 .vieta_mieste_forma {
 	display: inline-flex;}
-
 .vieta_mieste_bendra  {
 	z-index: 100;
 	box-shadow: 15px 0px 40px rgba(0, 0, 0, 0.15);
 	max-width: 406px;
 	margin-top: 100px;
 	background-color: #fff;}
-
 .icons-btn {
 	padding:20px;
 	background-color: #584b3b;}
-
 ul.vaistines_ir_gydymas_list li {
 	display: flex;
 	justify-content: space-between;
 	line-height: 2.5;
 	border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
 	color:rgba(0, 0, 0, 0.6);}
-
 ul.vaistines_ir_gydymas_list li span {
 	font-weight: 700;}
-
 #main_form_text{
 	font-weight: 700;
 	opacity: .7;
@@ -157,163 +147,114 @@ ul.vaistines_ir_gydymas_list li span {
 	padding-top: 60px;
 	margin:0 auto;
 	max-width: 330px;}	
-
 .vaistines_ir_gydymas_list{
 	max-width: 330px;
 	margin:0 auto;
 	padding-bottom: 185px;
 	padding-top: 40px;}
-
 .vieta_mieste_forma a {
 	text-decoration: none;
 	color:#fff;}
-
 .google_maps { 
 	top:221px;
 	left: 248px;
 	z-index: -5;
 	position: absolute;}
-
 .background_image_citus {
 	/*overflow-x: hidden;*/
 	width: 100%;
 	background: url(../images/vilnius.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;}
-
 .background_image_transperent {
 	background-color: rgba(0, 0, 0, .81);
-  width: 100%;
-}
-
+  width: 100%;}
 .citus_content {
 	max-width: 745px;
 	padding-top:300px;
 	text-align: center;
 	color:#fff;
 	padding-bottom: 250px;
-	margin:0 auto;
-}
-
+	margin:0 auto;}
 .citus_content_heading,
 .citus_content_about {
-	font-family: 'Open Sans', sans-serif;
-}
-
+	font-family: 'Open Sans', sans-serif;}
 .citus_content_heading {
 	font-weight: 700;
 	font-size: 50px;
-	text-transform: uppercase;
-}
-
+	text-transform: uppercase;}
 .citus_content_about {
 	font-weight: 400;
 	margin-top:30px;
 	margin-bottom:40px;
-	font-size: 35px;
-}
-
+	font-size: 35px;}
 .citus_content_text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
-	margin-bottom: 30px;
-}
-
+	margin-bottom: 30px;}
 .dot {
-		margin:0 5px 0 5px;
+    margin:0 5px 0 5px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
     border:1px solid #f1e502;
-    display: inline-block;
-}
-
+    display: inline-block;}
 .kontaktai_background {
 	background-color:#ece2d1; 
-	width: 100%;
-}
-
+	width: 100%;}
 .kontaktai_inline {
 	justify-content: space-between;
-	display: flex;
-	}
-
+	display: flex;}
 .flex_all {
-	display: flex;
-}
-
+	display: flex;}
 p.person_name {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	font-weight: 700;
-	color:rgba(0, 0, 0, .9);
-}
-
+	color:rgba(0, 0, 0, .9);}
 .person_image {
-	box-shadow: 0px 6px 31px -11px rgba(0,0,0,0.35);
-}
-
+	box-shadow: 0px 6px 31px -11px rgba(0,0,0,0.35);}
 p.person_kontaktai {
-	margin-top: 5px;
-}
-
+	margin-top: 5px;}
 p.person_kontaktai,
 p.person_position {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
-	color:rgba(0, 0, 0, .6);
-}
-
+	color:rgba(0, 0, 0, .6);}
 .rezervacija {
  padding:100px 100px 90px 130px;
-	background: url(../images/kontaktai.jpg);
-}
-
+	background: url(../images/kontaktai.jpg);}
 .rezervacija ul { 
-	list-style: none;
- }
-
+	list-style: none;}
 .rezervacija_laiko_text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 80px;
-	color:rgba(255, 255, 255, 1);
-}
-
+	color:rgba(255, 255, 255, 1);}
 .rezervacija ul li {
 	margin-bottom: 60px;
-	border-bottom:1px solid rgba(255, 255, 255, 0.5);
-}
-
+	border-bottom:1px solid rgba(255, 255, 255, 0.5);}
 input[type=text] {
 	background-color: transparent;
 	border: none;
 	padding:10px 0 10px 0;
-	width: 300px;
-}
-
+	width: 300px;}
 button.kontaktai_siusti {
 	padding: 15px 40px 15px 40px;
 	color: #fff;
 	background-color: #879f55;
-	border-style: none;
-}
-
+	border-style: none;}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgba(255, 255, 255, .5);
-}
+  color: rgba(255, 255, 255, .5);}
 ::-moz-placeholder { /* Firefox 19+ */
-  color: rgba(255, 255, 255, .5);
-}
+  color: rgba(255, 255, 255, .5);}
 :-ms-input-placeholder { /* IE 10+ */
-  color: rgba(255, 255, 255, .5);
-}
+  color: rgba(255, 255, 255, .5);}
 :-moz-placeholder { /* Firefox 18- */
-  color: rgba(255, 255, 255, .5);
-}
+  color: rgba(255, 255, 255, .5);}
 
 
 
